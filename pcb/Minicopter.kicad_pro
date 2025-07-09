@@ -419,6 +419,10 @@
     [
       "12562e18-cb57-4147-84c9-3a61f8b8d375",
       "battery"
+    ],
+    [
+      "345f8b2d-8ca1-45b4-b603-118598e01ed6",
+      "batterycontrol"
     ]
   ],
   "text_variables": {}

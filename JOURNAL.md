@@ -48,7 +48,6 @@ SS34
 SPX3819M5-L-3-3
 4 capacitors, 3 resistors, and 1 led
 
-
 ![power](assets/image1.png)
 
 circuit explanation for later me:
@@ -62,7 +61,27 @@ circuit explanation for later me:
 - two more capaicitors to add stabalization on the 3v3 rail, connected in parallel and will supply voltage in drops
 - green led for on status
 
-second schematic: battery ()
+second schematic: battery (0.5 hour)
 
 components:
 TP4056
+2 resistor, 3 resistor, 1 capacitor
+51005-0200 molex female housing
+
+![battery](assets/image2.png)
+
+circuit explanation: 
+- power comes from vcc
+- ce turns on charging, connected to 5v so always charging
+- epad is for cooling
+- temp is for temp monitoring (not doing that)
+- prog is to set charging amps (1amp at 1.2k resistor)
+- capicitor smooths out charging
+
+third schematic: on/off and voltage monitoring (battery control)
+
+components:
+3 resistors
+MST22D18G2_125 (https://www.amazon.ca/100Pcs-MSS22D18-Miniature-Switch-Handle/dp/B093LBLK6D)
+
+![batterycontrol](assets/image3.png)

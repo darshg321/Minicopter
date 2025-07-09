@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 201.93 17.78)
+		(size 80.01 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "345f8b2d-8ca1-45b4-b603-118598e01ed6")
+		(property "Sheetname" "batterycontrol"
+			(at 201.93 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "batterycontrol.kicad_sch"
+			(at 201.93 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Minicopter"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 16.51 17.78)
 		(size 81.28 72.39)
 		(exclude_from_sim no)
