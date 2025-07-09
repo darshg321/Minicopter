@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "4a00cce4-fecb-4d2f-b077-f13e7fb3173e")
+	(uuid "35304cf3-b980-488e-98af-410d467024f5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -1206,26 +1206,6 @@
 		)
 		(uuid "952f684c-a225-46fb-a6ab-15a32667c517")
 	)
-	(label "LED_BLUE"
-		(at 101.6 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a96ba623-abf0-44d6-844a-04a192ce3520")
-	)
-	(label "LED_RED"
-		(at 101.6 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab7f6022-9af0-4445-bc3c-a0b784c59205")
-	)
 	(label "MTR1"
 		(at 68.58 72.39 180)
 		(effects
@@ -1299,6 +1279,28 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "LED_RED"
+		(shape input)
+		(at 101.6 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d1aa0dd-e8a7-437c-879b-a19cf2fe3908")
+	)
+	(hierarchical_label "LED_BLUE"
+		(shape input)
+		(at 101.6 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f825824d-7ebb-40ee-a9ca-661518067287")
 	)
 	(symbol
 		(lib_id "power:GND")

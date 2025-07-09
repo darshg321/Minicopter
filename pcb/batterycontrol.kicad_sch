@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f998d0b9-ea18-4de6-a2c2-82c9747e00a1")
+	(uuid "5540b0f2-79ab-4707-bbf1-91eca10d0b9f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
@@ -1375,16 +1375,6 @@
 		)
 		(uuid "f13b4289-ee6a-4f8d-9e58-52080f4fe563")
 	)
-	(label "LDO_ONOFF"
-		(at 116.84 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2918f34f-37e2-403f-b285-d324b19260c0")
-	)
 	(label "ADC_BATTERY"
 		(at 67.31 55.88 180)
 		(effects
@@ -1413,6 +1403,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LDO_ONOFF"
+		(shape bidirectional)
+		(at 116.84 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "178ce22d-33f5-4fbc-87ba-de5803525582")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.7014 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

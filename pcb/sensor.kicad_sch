@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "83ec3310-da21-4d19-a28f-28cd387bce94")
+	(uuid "a31fbc6b-29cf-4abb-892d-2942a4beea80")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -741,25 +741,49 @@
 		)
 		(uuid "ffe9460a-06d3-433c-a0c1-837516e87d4a")
 	)
-	(label "SDA"
+	(global_label "SDA"
+		(shape bidirectional)
 		(at 55.88 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "43ff54a7-6564-4d30-9074-62900f5320c7")
+		(uuid "a7acce7f-3843-42a2-8799-e35176f0750f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.2154 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SCL"
+	(global_label "SCL"
+		(shape bidirectional)
 		(at 55.88 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "9996ceca-7fb9-492b-b6b3-8ea00b2c4899")
+		(uuid "b9c18796-29dd-4f27-8feb-a292a14ac9df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.2759 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "GY-87:GY-87")

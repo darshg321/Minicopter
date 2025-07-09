@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "3bd95080-2175-42cc-a75c-6649de365008")
+	(uuid "eb1ce91c-84ce-420b-9fac-cf718b7fa32e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:LED"
@@ -500,25 +500,27 @@
 		)
 		(uuid "e09249b6-3524-4ce4-ab94-390001436470")
 	)
-	(label "LED_BLUE"
+	(hierarchical_label "LED_BLUE"
+		(shape output)
 		(at 91.44 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "32775df5-1aac-483a-8b42-7d6f3b626e0e")
+		(uuid "62c9ddfe-4578-46ab-91f6-4d831f4cbdc8")
 	)
-	(label "LED_RED"
+	(hierarchical_label "LED_RED"
+		(shape output)
 		(at 91.44 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "4517ed48-d3e5-4681-bf82-b31140ac1f3c")
+		(uuid "d18a4c53-f7e5-4e40-943b-841e09b14b95")
 	)
 	(symbol
 		(lib_id "Device:LED")
