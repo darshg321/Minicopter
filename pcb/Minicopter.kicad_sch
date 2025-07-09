@@ -5,51 +5,249 @@
 	(uuid "64f47f0f-737f-4ea8-9b68-9c8ed6450afb")
 	(paper "A4")
 	(lib_symbols)
-	(sheet
-		(at 102.87 17.78)
-		(size 93.98 72.39)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 125.73 93.98)
+		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(fill
-			(color 0 0 0 0.0000)
+		(uuid "03a365b6-d3a8-41b7-9c25-7835fff1d3f1")
+	)
+	(wire
+		(pts
+			(xy 123.19 81.28) (xy 123.19 87.63)
 		)
-		(uuid "12562e18-cb57-4147-84c9-3a61f8b8d375")
-		(property "Sheetname" "battery"
-			(at 102.87 17.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(property "Sheetfile" "battery.kicad_sch"
-			(at 102.87 90.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
+		(uuid "0a74a67a-5b90-440e-b74b-fba2705fc1b6")
+	)
+	(wire
+		(pts
+			(xy 115.57 96.52) (xy 125.73 96.52)
 		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "3")
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "1865ebe9-9561-4d14-8b44-78455ccf7b27")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 125.73 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff22ad5-649f-4afa-b236-c80628bca09e")
+	)
+	(wire
+		(pts
+			(xy 123.19 124.46) (xy 123.19 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c40810-2874-4a79-848a-524b338f2e58")
+	)
+	(wire
+		(pts
+			(xy 116.84 115.57) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb1abce-2753-434c-8805-018ae07ca1a1")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f2db4e-d89f-4140-a87f-92043d8d486c")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460ccd70-f356-4fdb-9527-6b0f7043cf51")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd59f3c-e9df-4dfd-b87f-ff4530643714")
+	)
+	(wire
+		(pts
+			(xy 115.57 118.11) (xy 118.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "688c6307-20e7-4088-a83b-556f19f33b92")
+	)
+	(wire
+		(pts
+			(xy 115.57 91.44) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad294fb-47d5-4934-8800-74dbf2761db6")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70369073-8c83-4fa9-a848-a1952e583afd")
+	)
+	(wire
+		(pts
+			(xy 125.73 127) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d7f216-3289-4d9d-8b12-54f065ec90af")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 116.84 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82edcee6-b589-466f-8bc6-5469740d9ba2")
+	)
+	(wire
+		(pts
+			(xy 123.19 106.68) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b314b9b-ed3e-4bdd-9e79-9d1f664f96e1")
+	)
+	(wire
+		(pts
+			(xy 118.11 118.11) (xy 118.11 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be0d6a4-d4c8-45e9-9ae0-55304a0ec576")
+	)
+	(wire
+		(pts
+			(xy 185.42 124.46) (xy 189.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e580de6-f315-4f80-8593-b288604e8e65")
+	)
+	(wire
+		(pts
+			(xy 118.11 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903bd74e-0564-40f4-853b-2d5966f38b78")
+	)
+	(wire
+		(pts
+			(xy 157.48 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0655f65-4d2e-4be0-a71a-91e1d02ea396")
+	)
+	(wire
+		(pts
+			(xy 121.92 127) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a693e174-e0b7-4b04-9827-03cbdde97e60")
+	)
+	(wire
+		(pts
+			(xy 157.48 124.46) (xy 160.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4e7fa2-0a70-4022-8a2f-7dc0b6c3b096")
+	)
+	(wire
+		(pts
+			(xy 189.23 124.46) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d738594b-c302-435f-bf6d-0be9e2de6f4b")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfae3449-b489-49df-b1ab-b3b61610b33b")
+	)
+	(wire
+		(pts
+			(xy 125.73 124.46) (xy 123.19 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4157c28-4be5-47bc-a632-bd0b7eed163c")
 	)
 	(sheet
-		(at 201.93 17.78)
-		(size 80.01 72.39)
+		(at 125.73 85.09)
+		(size 31.75 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -62,51 +260,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "345f8b2d-8ca1-45b4-b603-118598e01ed6")
-		(property "Sheetname" "batterycontrol"
-			(at 201.93 17.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "batterycontrol.kicad_sch"
-			(at 201.93 90.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 16.51 96.52)
-		(size 81.28 95.25)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "38546d21-e39c-4682-9e75-8a3e2881998d")
+		(uuid "047cf661-446c-42ce-bee7-c20fdff4d7ef")
 		(property "Sheetname" "microcontroller"
-			(at 16.51 95.8084 0)
+			(at 125.73 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +271,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 16.51 192.3546 0)
+			(at 125.73 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,46 +279,114 @@
 				(justify left top)
 			)
 		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 16.51 17.78)
-		(size 81.28 72.39)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "68d71296-5062-4dc5-b448-1e8c1a602da0")
-		(property "Sheetname" "usbpower"
-			(at 16.51 17.0684 0)
+		(pin "ADC_BATTERY" output
+			(at 125.73 87.63 180)
+			(uuid "01007b2c-7975-49fa-b241-dcb053f9ede3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Sheetfile" "usbpower.kicad_sch"
-			(at 16.51 90.7546 0)
+		(pin "MTR1" input
+			(at 125.73 91.44 180)
+			(uuid "2b596432-e3db-44ee-a2dd-c10937d78695")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
+			)
+		)
+		(pin "MTR2" input
+			(at 125.73 93.98 180)
+			(uuid "110f8bbc-42e6-48f0-a94f-ed0a68c4f83a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTR3" input
+			(at 125.73 96.52 180)
+			(uuid "f182b227-f516-4e0f-b631-e2da3d37ac72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTR4" input
+			(at 125.73 99.06 180)
+			(uuid "8f7fdd60-a9a2-4653-a57a-141f33f8a7c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 125.73 101.6 180)
+			(uuid "afa2b5d8-090f-4ce0-9873-cc5490b51faf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 125.73 104.14 180)
+			(uuid "a261e4da-a4f8-4623-9720-e2e08f7d17f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBD+" bidirectional
+			(at 125.73 106.68 180)
+			(uuid "d7327eb2-404d-4c03-a030-468ecfbce89d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBD-" bidirectional
+			(at 125.73 109.22 180)
+			(uuid "b8e50a7c-bcde-4264-a909-1ff4703ca404")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_BLUE" input
+			(at 157.48 87.63 0)
+			(uuid "25e38928-f057-4425-8efc-39bdbefd78a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_RED" input
+			(at 157.48 91.44 0)
+			(uuid "1e5284cc-acd1-45f1-b69e-f35a9f2e83d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -174,8 +398,8 @@
 		)
 	)
 	(sheet
-		(at 102.87 96.52)
-		(size 93.98 29.21)
+		(at 125.73 120.65)
+		(size 31.75 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -188,9 +412,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923")
-		(property "Sheetname" "sensor"
-			(at 102.87 95.8084 0)
+		(uuid "3b7e7fd7-5736-4711-b48c-34d501eaa685")
+		(property "Sheetname" "usb power"
+			(at 125.73 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,13 +422,43 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sensor.kicad_sch"
-			(at 102.87 126.3146 0)
+		(property "Sheetfile" "usbpower.kicad_sch"
+			(at 125.73 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LDO_EN" output
+			(at 157.48 124.46 0)
+			(uuid "b0e1130e-0660-486d-bfc5-4f540ca69e5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBD+" bidirectional
+			(at 125.73 124.46 180)
+			(uuid "951653fa-f6d8-443f-9eeb-f2dfa5cdf33c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBD-" bidirectional
+			(at 125.73 127 180)
+			(uuid "94398f68-e7cf-441f-b845-55a320bd6221")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -216,8 +470,8 @@
 		)
 	)
 	(sheet
-		(at 201.93 96.52)
-		(size 80.01 29.21)
+		(at 161.29 85.09)
+		(size 24.13 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -230,9 +484,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "ed609819-b5ba-43b4-b1d2-97343d8298dc")
-		(property "Sheetname" "motordrivers"
-			(at 201.93 95.8084 0)
+		(uuid "3c21c8a1-5c0b-4ed6-95c7-1ac4e621f5e8")
+		(property "Sheetname" "status leds"
+			(at 161.29 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -240,13 +494,157 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "motordrivers.kicad_sch"
-			(at 201.93 126.3146 0)
+		(property "Sheetfile" "statusleds.kicad_sch"
+			(at 161.29 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LED_BLUE" output
+			(at 161.29 87.63 180)
+			(uuid "9b3d18b4-8690-4a63-855d-cfda3f1221c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_RED" output
+			(at 161.29 91.44 180)
+			(uuid "3a9de247-a1a6-4783-852a-b3d4c3214f95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Minicopter"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 109.22)
+		(size 13.97 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "738662d6-6c41-4f3e-a588-8d054add7828")
+		(property "Sheetname" "sensor"
+			(at 101.6 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 101.6 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 115.57 115.57 0)
+			(uuid "5d706584-2c89-4706-bf0b-cf026fe56e3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 115.57 118.11 0)
+			(uuid "a03cfffa-5fc7-4e66-a720-328608eb502e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Minicopter"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 120.65)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a880b9e6-2cc9-406b-acd1-8115b7529151")
+		(property "Sheetname" "battery control"
+			(at 160.02 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "batterycontrol.kicad_sch"
+			(at 160.02 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LDO_EN" input
+			(at 160.02 124.46 180)
+			(uuid "70a15133-0bc8-4487-be30-90427f30a607")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC_BATTERY" input
+			(at 185.42 124.46 0)
+			(uuid "2ed90fb4-d424-460e-a315-96e7c9406225")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -258,8 +656,8 @@
 		)
 	)
 	(sheet
-		(at 102.87 133.35)
-		(size 93.98 24.13)
+		(at 161.29 100.33)
+		(size 24.13 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -272,9 +670,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "fc79d1de-51ba-494f-aa6c-7ed48581d03d")
-		(property "Sheetname" "statusleds"
-			(at 102.87 132.6384 0)
+		(uuid "b0efd852-9c3a-4f8a-822f-c03723051308")
+		(property "Sheetname" "battery"
+			(at 161.29 99.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -282,8 +680,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "statusleds.kicad_sch"
-			(at 102.87 158.0646 0)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 161.29 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -295,6 +693,88 @@
 			(project "Minicopter"
 				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 85.09)
+		(size 13.97 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da63f7ab-ab66-4122-9e6c-272b8d61763a")
+		(property "Sheetname" "motor drivers"
+			(at 101.6 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motordrivers.kicad_sch"
+			(at 101.6 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MTR1" output
+			(at 115.57 91.44 0)
+			(uuid "9f707ba3-84a9-4f0c-bc7f-4259868d8903")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTR2" output
+			(at 115.57 93.98 0)
+			(uuid "4e4e2c1a-08de-4b34-aa25-d64d9ec89ec9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTR3" output
+			(at 115.57 96.52 0)
+			(uuid "d98ed174-04e2-4e6b-9390-9475cebc8371")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MTR4" output
+			(at 115.57 99.06 0)
+			(uuid "1f9ddfef-0c26-4a32-bd19-624bc348fc3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Minicopter"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
+					(page "4")
 				)
 			)
 		)

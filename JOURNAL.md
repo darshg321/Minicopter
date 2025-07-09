@@ -156,3 +156,8 @@ components:
 
 finished
 now for errors :(
+fixed errors, apparently net labels dont work across sheets so made it all hierarchical lables
+
+finished root schematic
+![finished root schematic](assets/image9.png)
+

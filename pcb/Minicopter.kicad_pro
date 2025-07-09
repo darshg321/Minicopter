@@ -413,32 +413,32 @@
       "Root"
     ],
     [
-      "68d71296-5062-4dc5-b448-1e8c1a602da0",
-      "usbpower"
-    ],
-    [
-      "12562e18-cb57-4147-84c9-3a61f8b8d375",
-      "battery"
-    ],
-    [
-      "345f8b2d-8ca1-45b4-b603-118598e01ed6",
-      "batterycontrol"
-    ],
-    [
-      "38546d21-e39c-4682-9e75-8a3e2881998d",
+      "047cf661-446c-42ce-bee7-c20fdff4d7ef",
       "microcontroller"
     ],
     [
-      "c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923",
+      "3c21c8a1-5c0b-4ed6-95c7-1ac4e621f5e8",
+      "status leds"
+    ],
+    [
+      "da63f7ab-ab66-4122-9e6c-272b8d61763a",
+      "motor drivers"
+    ],
+    [
+      "738662d6-6c41-4f3e-a588-8d054add7828",
       "sensor"
     ],
     [
-      "ed609819-b5ba-43b4-b1d2-97343d8298dc",
-      "motordrivers"
+      "3b7e7fd7-5736-4711-b48c-34d501eaa685",
+      "usb power"
     ],
     [
-      "fc79d1de-51ba-494f-aa6c-7ed48581d03d",
-      "statusleds"
+      "a880b9e6-2cc9-406b-acd1-8115b7529151",
+      "battery control"
+    ],
+    [
+      "b0efd852-9c3a-4f8a-822f-c03723051308",
+      "battery"
     ]
   ],
   "text_variables": {}

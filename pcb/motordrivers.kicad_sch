@@ -1790,45 +1790,49 @@
 		)
 		(uuid "fff721a2-96da-4b39-a1d3-2f29dc4ed0a4")
 	)
-	(label "MTR2"
-		(at 99.06 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "05857cc7-b9d2-4ea8-8da2-fb3fa7bc9de6")
-	)
-	(label "MTR4"
+	(hierarchical_label "MTR4"
+		(shape output)
 		(at 209.55 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "534ce59b-a4ed-47d4-8899-220c1c5b3c35")
+		(uuid "0e602be6-2ec6-4586-a762-12ce3b5f8105")
 	)
-	(label "MTR3"
+	(hierarchical_label "MTR2"
+		(shape output)
+		(at 99.06 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b1b6cd9-a5d9-49a0-9794-a65bb5f620d0")
+	)
+	(hierarchical_label "MTR3"
+		(shape output)
 		(at 152.4 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "a2ae2284-cd76-4624-8e6d-52b2a78021a5")
+		(uuid "525b8322-7bd3-4e0f-b886-6afaa8e85924")
 	)
-	(label "MTR1"
+	(hierarchical_label "MTR1"
+		(shape output)
 		(at 44.45 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "edcd7fc4-fa46-4953-9ccb-a230efbb65b9")
+		(uuid "5dd97315-60c3-4fd0-a4e2-a4e1da76ab29")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1889,7 +1893,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -1959,7 +1963,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "J6")
 					(unit 1)
 				)
@@ -2086,7 +2090,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "T4")
 					(unit 1)
 				)
@@ -2173,7 +2177,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "D6")
 					(unit 1)
 				)
@@ -2300,7 +2304,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "T1")
 					(unit 1)
 				)
@@ -2370,7 +2374,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "R14")
 					(unit 1)
 				)
@@ -2436,7 +2440,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -2502,7 +2506,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -2572,7 +2576,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "J5")
 					(unit 1)
 				)
@@ -2638,7 +2642,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -2708,7 +2712,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "J3")
 					(unit 1)
 				)
@@ -2774,7 +2778,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -2840,7 +2844,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -2967,7 +2971,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "T2")
 					(unit 1)
 				)
@@ -3033,7 +3037,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -3099,7 +3103,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -3165,7 +3169,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -3252,7 +3256,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "D5")
 					(unit 1)
 				)
@@ -3318,7 +3322,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -3387,7 +3391,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "C9")
 					(unit 1)
 				)
@@ -3456,7 +3460,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "C8")
 					(unit 1)
 				)
@@ -3543,7 +3547,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "D7")
 					(unit 1)
 				)
@@ -3609,7 +3613,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -3675,7 +3679,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -3745,7 +3749,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "R11")
 					(unit 1)
 				)
@@ -3815,7 +3819,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "J4")
 					(unit 1)
 				)
@@ -3884,7 +3888,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "C10")
 					(unit 1)
 				)
@@ -3954,7 +3958,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "R13")
 					(unit 1)
 				)
@@ -4041,7 +4045,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "D8")
 					(unit 1)
 				)
@@ -4110,7 +4114,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "C11")
 					(unit 1)
 				)
@@ -4237,7 +4241,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "T3")
 					(unit 1)
 				)
@@ -4307,7 +4311,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/ed609819-b5ba-43b4-b1d2-97343d8298dc"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/da63f7ab-ab66-4122-9e6c-272b8d61763a"
 					(reference "R12")
 					(unit 1)
 				)

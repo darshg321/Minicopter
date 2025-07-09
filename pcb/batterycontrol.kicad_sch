@@ -1196,12 +1196,6 @@
 		(uuid "2f92e90f-3cd4-4e1c-a80d-23e2cc03d3c9")
 	)
 	(junction
-		(at 113.03 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51426352-dfef-4b02-8bab-4da5957dc470")
-	)
-	(junction
 		(at 68.58 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1365,69 +1359,27 @@
 		)
 		(uuid "ec3ddd06-cb37-48c3-a832-1477cbce80b1")
 	)
-	(wire
-		(pts
-			(xy 113.03 49.53) (xy 116.84 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f13b4289-ee6a-4f8d-9e58-52080f4fe563")
-	)
-	(label "ADC_BATTERY"
-		(at 67.31 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "83b17fb9-2469-4af1-8672-b65849bcbc01")
-	)
-	(global_label "LDO_EN"
+	(hierarchical_label "LDO_EN"
 		(shape input)
 		(at 96.52 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "091bb8b7-d37e-4bea-b38c-0bc8779bafbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.4591 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "42be56c5-28b2-48bb-9f5e-6cc61a5f4cf2")
 	)
-	(global_label "LDO_ONOFF"
-		(shape bidirectional)
-		(at 116.84 49.53 0)
-		(fields_autoplaced yes)
+	(hierarchical_label "ADC_BATTERY"
+		(shape input)
+		(at 67.31 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "178ce22d-33f5-4fbc-87ba-de5803525582")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7014 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "f95742d6-deda-48a6-ac3c-f6c0eb39e4cf")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1488,7 +1440,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/345f8b2d-8ca1-45b4-b603-118598e01ed6"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/a880b9e6-2cc9-406b-acd1-8115b7529151"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -1554,7 +1506,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/345f8b2d-8ca1-45b4-b603-118598e01ed6"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/a880b9e6-2cc9-406b-acd1-8115b7529151"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -1624,7 +1576,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/345f8b2d-8ca1-45b4-b603-118598e01ed6"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/a880b9e6-2cc9-406b-acd1-8115b7529151"
 					(reference "R9")
 					(unit 1)
 				)
@@ -1690,7 +1642,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/345f8b2d-8ca1-45b4-b603-118598e01ed6"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/a880b9e6-2cc9-406b-acd1-8115b7529151"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -1829,7 +1781,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/345f8b2d-8ca1-45b4-b603-118598e01ed6"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/a880b9e6-2cc9-406b-acd1-8115b7529151"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -1895,7 +1847,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/345f8b2d-8ca1-45b4-b603-118598e01ed6"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/a880b9e6-2cc9-406b-acd1-8115b7529151"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -1965,7 +1917,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/345f8b2d-8ca1-45b4-b603-118598e01ed6"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/a880b9e6-2cc9-406b-acd1-8115b7529151"
 					(reference "R10")
 					(unit 1)
 				)
@@ -2035,7 +1987,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/345f8b2d-8ca1-45b4-b603-118598e01ed6"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/a880b9e6-2cc9-406b-acd1-8115b7529151"
 					(reference "R8")
 					(unit 1)
 				)

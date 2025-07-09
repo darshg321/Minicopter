@@ -741,49 +741,27 @@
 		)
 		(uuid "ffe9460a-06d3-433c-a0c1-837516e87d4a")
 	)
-	(global_label "SDA"
+	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 55.88 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a7acce7f-3843-42a2-8799-e35176f0750f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.2154 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "28f2803a-0a9e-4022-927a-ba22af4a9db1")
 	)
-	(global_label "SCL"
+	(hierarchical_label "SCL"
 		(shape bidirectional)
 		(at 55.88 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b9c18796-29dd-4f27-8feb-a292a14ac9df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.2759 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "c1e66871-93d6-4a08-ab77-b308d24bb982")
 	)
 	(symbol
 		(lib_id "GY-87:GY-87")
@@ -865,7 +843,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/738662d6-6c41-4f3e-a588-8d054add7828"
 					(reference "U4")
 					(unit 1)
 				)
@@ -931,7 +909,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/738662d6-6c41-4f3e-a588-8d054add7828"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -1000,7 +978,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/738662d6-6c41-4f3e-a588-8d054add7828"
 					(reference "C6")
 					(unit 1)
 				)
@@ -1070,7 +1048,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/738662d6-6c41-4f3e-a588-8d054add7828"
 					(reference "C7")
 					(unit 1)
 				)
@@ -1136,7 +1114,7 @@
 		)
 		(instances
 			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/738662d6-6c41-4f3e-a588-8d054add7828"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -1202,7 +1180,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/738662d6-6c41-4f3e-a588-8d054add7828"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -1268,7 +1246,7 @@
 		)
 		(instances
 			(project ""
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb/738662d6-6c41-4f3e-a588-8d054add7828"
 					(reference "#PWR013")
 					(unit 1)
 				)
