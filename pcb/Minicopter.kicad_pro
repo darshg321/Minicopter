@@ -423,6 +423,22 @@
     [
       "345f8b2d-8ca1-45b4-b603-118598e01ed6",
       "batterycontrol"
+    ],
+    [
+      "38546d21-e39c-4682-9e75-8a3e2881998d",
+      "microcontroller"
+    ],
+    [
+      "c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923",
+      "sensor"
+    ],
+    [
+      "ed609819-b5ba-43b4-b1d2-97343d8298dc",
+      "motordrivers"
+    ],
+    [
+      "fc79d1de-51ba-494f-aa6c-7ed48581d03d",
+      "statusleds"
     ]
   ],
   "text_variables": {}

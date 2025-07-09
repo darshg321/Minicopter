@@ -15,7 +15,7 @@ goals of this drone:
 the guy uses NewBeeDrone BDR GOLD Edition - 6mm Brushed Motor, so i'll be basing my design off of these motors
 
 shoutout to this blog article for being quite helpful in esp selection: https://eitherway.io/posts/esp32-buyers-guide/
-i will go with the esp-32 c3 for its bluetooth 5.0 and efficiency
+i will go with the esp32-c3-wroom-02 for its bluetooth 5.0 and efficiency
 
 parts v1:
 NewBeeDrone BDR GOLD Edition - 6mm Brushed Motor (https://newbeedrone.com/products/newbeedrone-bdr-gold-edition-6mm-brushed-motor)
@@ -85,3 +85,74 @@ components:
 MST22D18G2_125 (https://www.amazon.ca/100Pcs-MSS22D18-Miniature-Switch-Handle/dp/B093LBLK6D)
 
 ![batterycontrol](assets/image3.png)
+
+circuit explanation:
+- battery capacity is measured by the voltage divider, linking to an adc pin
+- when switch is toggled, it either connects ldo's en to gnd (off), or to vbus via r10
+- r10 is there to not short the circuit when untoggled (pull up resistor)
+
+fourth schematic: microcontroller
+
+components: 
+- esp32-c3-wroom-02
+- 2 resistor, 1 capacitor
+
+![microcontroller](assets/image8.png)
+
+circuit explanation:
+- en must be HIGH to boot, pull up resistor and capacitor for stability
+- io2 is for boot and optionally has a pull down resistor
+- io6, 7, and 10 are for firmware and cannot be connected
+- io20/21 are rxd and txd and supposed to be for uart serial communication, but since im using native usb ill be controlling leds with them
+- io3 works for adc
+- io18/19 are usb for the esp32-c3-wroom-02
+
+fifth schematic: sensor
+unfortunately the mpu6050 seems to only be in qfn form (and discontinued) and since i dont have the tools to solder that, i'll be using the gy-87 module
+links that are helpful w this:
+https://docs.sunfounder.com/projects/elite-explorer-kit/en/latest/basic_projects/09_basic_gy87.html
+https://www.reddit.com/r/PrintedCircuitBoard/comments/b704j7/how_to_connect_breakout_board_with_a_pcb/
+https://electropeak.com/learn/interfacing-gy-87-10dof-imu-mpu6050-hmc5883l-bmp085-module-with-arduino/
+https://5.imimg.com/data5/LF/FE/MY-1833510/gy-87-10dof-mpu6050-hmc5883l-bmp180-sensor-module.pdf
+
+gy87 symbol: 
+![gy87 symbol](assets/image4.png)
+
+components:
+- gy87
+- 2 capacitor
+
+connections:
+![sensor](assets/image5.png)
+
+circuit explanation:
+- scl and sda go to the pins on esp32, dont need pull up resistors or 3v because the breakout board already has that
+- dont use vcc_in, drdy, and inta
+- fsync connects to gnd because its an output pin unlike the other input pins, and so may pick up on random noise and so has to be connected to gnd
+- breakout board likely already has decoupling capacitors for the power, but might as well add them anyways for ensured reliability
+
+sixth schematic: motor drivers
+
+components:
+- 4 IRLML6344TRPBF
+- 4 resistor
+- 4 1N414BW
+
+![motor drivers](assets/image6.png)
+
+circuit explanation:
+- pin 1 is the gate on the mosfet, pin 3 is the drain, pin 2 is the source
+- when pin 1 of the mosfet is turned on by the microcontroller, the switch is on and the current can flow from the battery to gnd
+- this allows the motor to spin because it connects the motors negative terminal to gnd
+- when the mosfet is closed, the motor cannot spin because it only has positive terminal plugged into the battery
+
+seventh schematic: status leds
+
+components:
+- 2 leds
+- 2 resistors
+
+![status leds](assets/image7.png)
+
+finished
+now for errors :(

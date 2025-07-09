@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "e7f7a54f-5338-452d-86d9-79922e7c5916")
+	(uuid "f998d0b9-ea18-4de6-a2c2-82c9747e00a1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
@@ -1206,6 +1206,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82c1e77b-fc4e-4bc3-8aa9-4d9da0e51df0")
+	)
+	(no_connect
+		(at 113.03 52.07)
+		(uuid "84f39c40-9c1c-4efe-b257-287cea610ed7")
+	)
+	(no_connect
+		(at 113.03 57.15)
+		(uuid "e44234ca-84f9-475e-9561-42fba1f2b2ee")
 	)
 	(wire
 		(pts

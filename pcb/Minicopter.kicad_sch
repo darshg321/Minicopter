@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 16.51 96.52)
+		(size 81.28 95.25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38546d21-e39c-4682-9e75-8a3e2881998d")
+		(property "Sheetname" "microcontroller"
+			(at 16.51 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 16.51 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Minicopter"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 16.51 17.78)
 		(size 81.28 72.39)
 		(exclude_from_sim no)
@@ -127,6 +169,132 @@
 			(project "Minicopter"
 				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 96.52)
+		(size 93.98 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3ff5dc2-f9f0-4d07-be2e-e8a81e26d923")
+		(property "Sheetname" "sensor"
+			(at 102.87 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 102.87 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Minicopter"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 96.52)
+		(size 80.01 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed609819-b5ba-43b4-b1d2-97343d8298dc")
+		(property "Sheetname" "motordrivers"
+			(at 201.93 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motordrivers.kicad_sch"
+			(at 201.93 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Minicopter"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 133.35)
+		(size 93.98 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc79d1de-51ba-494f-aa6c-7ed48581d03d")
+		(property "Sheetname" "statusleds"
+			(at 102.87 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "statusleds.kicad_sch"
+			(at 102.87 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Minicopter"
+				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
+					(page "8")
 				)
 			)
 		)
