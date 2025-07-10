@@ -86,6 +86,8 @@ MST22D18G2_125 (https://www.amazon.ca/100Pcs-MSS22D18-Miniature-Switch-Handle/dp
 
 ![batterycontrol](assets/image3.png)
 
+## july 9th
+
 circuit explanation:
 - battery capacity is measured by the voltage divider, linking to an adc pin
 - when switch is toggled, it either connects ldo's en to gnd (off), or to vbus via r10
@@ -161,3 +163,18 @@ fixed errors, apparently net labels dont work across sheets so made it all hiera
 finished root schematic
 ![finished root schematic](assets/image9.png)
 
+footprint notes:
+using 603 standard footprints for mostly everything
+
+GY-87 footprint
+![gy-87 footprint](assets/image10.png)
+
+swapped out the original switch with a different one bc the other one is impossible to source
+ss12-d00 footprint: (also made the schematic)
+![ss12-d00](assets/image11.png)
+
+irlml6344TRPBF footprint
+![irlml6344TRPBF](assets/image12.png)
+requirement: leave >= .2mm clearance between silkscreen and pads
+
+zero errors/warnings in erc and updating pcb from schematic !!

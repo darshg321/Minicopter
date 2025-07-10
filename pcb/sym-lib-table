@@ -3,4 +3,5 @@
   (lib (name "MST22D18G2_125")(type "KiCad")(uri "${KIPRJMOD}/mst22d18g2_125.kicad_sym")(options "")(descr ""))
   (lib (name "GY-87")(type "KiCad")(uri "${KIPRJMOD}/GY-87.kicad_sym")(options "")(descr ""))
   (lib (name "IRLML6344TRPBF")(type "KiCad")(uri "${KIPRJMOD}/IRLML6344TRPBF.kicad_sym")(options "")(descr ""))
+  (lib (name "SS-12D00")(type "KiCad")(uri "${KIPRJMOD}/SS-12D00.kicad_sym")(options "")(descr ""))
 )

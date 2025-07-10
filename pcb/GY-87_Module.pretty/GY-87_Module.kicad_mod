@@ -1,786 +1,249 @@
-(kicad_sch
-	(version 20250114)
-	(generator "eeschema")
+(footprint "GY-87_Module"
+	(version 20241229)
+	(generator "pcbnew")
 	(generator_version "9.0")
-	(uuid "64f47f0f-737f-4ea8-9b68-9c8ed6450afb")
-	(paper "A4")
-	(lib_symbols)
-	(wire
-		(pts
-			(xy 115.57 93.98) (xy 125.73 93.98)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 13.8 -13.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b7ed85ae-7b39-4572-abfe-b1468b674815")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
 		)
+	)
+	(property "Value" "GY-87_Module"
+		(at 13.8 -12.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "497c99a0-14e8-46a5-abdf-cf429a6398e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "kicad-embed://gy-87-10dof-mpu6050-hmc5883l-bmp180-sensor-module.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4d3fccc-013e-4532-ab31-e3716b6690e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5b759be-1dfc-4997-897b-df5807e4f1ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.1 -15.6)
+		(end 19.9 1.4)
 		(stroke
-			(width 0)
+			(width 0.1)
 			(type default)
 		)
-		(uuid "03a365b6-d3a8-41b7-9c25-7835fff1d3f1")
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2d039c56-37b3-4d41-a7af-fea33a71953e")
 	)
-	(wire
-		(pts
-			(xy 123.19 81.28) (xy 123.19 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a74a67a-5b90-440e-b74b-fba2705fc1b6")
-	)
-	(wire
-		(pts
-			(xy 115.57 96.52) (xy 125.73 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1865ebe9-9561-4d14-8b44-78455ccf7b27")
-	)
-	(wire
-		(pts
-			(xy 123.19 87.63) (xy 125.73 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff22ad5-649f-4afa-b236-c80628bca09e")
-	)
-	(wire
-		(pts
-			(xy 116.84 115.57) (xy 116.84 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fb1abce-2753-434c-8805-018ae07ca1a1")
-	)
-	(wire
-		(pts
-			(xy 116.84 101.6) (xy 125.73 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31f2db4e-d89f-4140-a87f-92043d8d486c")
-	)
-	(wire
-		(pts
-			(xy 157.48 91.44) (xy 161.29 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "460ccd70-f356-4fdb-9527-6b0f7043cf51")
-	)
-	(wire
-		(pts
-			(xy 189.23 81.28) (xy 123.19 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bd59f3c-e9df-4dfd-b87f-ff4530643714")
-	)
-	(wire
-		(pts
-			(xy 115.57 118.11) (xy 118.11 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688c6307-20e7-4088-a83b-556f19f33b92")
-	)
-	(wire
-		(pts
-			(xy 115.57 91.44) (xy 125.73 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ad294fb-47d5-4934-8800-74dbf2761db6")
-	)
-	(wire
-		(pts
-			(xy 121.92 109.22) (xy 125.73 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70369073-8c83-4fa9-a848-a1952e583afd")
-	)
-	(wire
-		(pts
-			(xy 125.73 121.92) (xy 121.92 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d7f216-3289-4d9d-8b12-54f065ec90af")
-	)
-	(wire
-		(pts
-			(xy 115.57 115.57) (xy 116.84 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82edcee6-b589-466f-8bc6-5469740d9ba2")
-	)
-	(wire
-		(pts
-			(xy 118.11 118.11) (xy 118.11 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8be0d6a4-d4c8-45e9-9ae0-55304a0ec576")
-	)
-	(wire
-		(pts
-			(xy 185.42 121.92) (xy 189.23 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e580de6-f315-4f80-8593-b288604e8e65")
-	)
-	(wire
-		(pts
-			(xy 118.11 104.14) (xy 125.73 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "903bd74e-0564-40f4-853b-2d5966f38b78")
-	)
-	(wire
-		(pts
-			(xy 157.48 87.63) (xy 161.29 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0655f65-4d2e-4be0-a71a-91e1d02ea396")
-	)
-	(wire
-		(pts
-			(xy 121.92 121.92) (xy 121.92 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a693e174-e0b7-4b04-9827-03cbdde97e60")
-	)
-	(wire
-		(pts
-			(xy 120.65 106.68) (xy 125.73 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be99650d-b4b8-40da-acf3-ef40df3e0001")
-	)
-	(wire
-		(pts
-			(xy 157.48 121.92) (xy 160.02 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf4e7fa2-0a70-4022-8a2f-7dc0b6c3b096")
-	)
-	(wire
-		(pts
-			(xy 125.73 124.46) (xy 120.65 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d3fd62-72bc-47ce-8189-3c8e05a33ff2")
-	)
-	(wire
-		(pts
-			(xy 120.65 124.46) (xy 120.65 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceb588fc-971b-4781-9e66-8d663c17087f")
-	)
-	(wire
-		(pts
-			(xy 189.23 121.92) (xy 189.23 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d738594b-c302-435f-bf6d-0be9e2de6f4b")
-	)
-	(wire
-		(pts
-			(xy 115.57 99.06) (xy 125.73 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfae3449-b489-49df-b1ab-b3b61610b33b")
-	)
-	(sheet
-		(at 125.73 85.09)
-		(size 31.75 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "047cf661-446c-42ce-bee7-c20fdff4d7ef")
-		(property "Sheetname" "microcontroller"
-			(at 125.73 84.3784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+	(fp_text user "SDA"
+		(at 10.7 -1.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1f98192a-4ca3-4aff-97a0-0a7ce33492c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
+			(justify left bottom)
 		)
-		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 125.73 113.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+	)
+	(fp_text user "VCC_IN"
+		(at 0.5 -1.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "348301d9-3ea9-459f-b0c1-b4efbca0b38c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
+			(justify left bottom)
 		)
-		(pin "ADC_BATTERY" output
-			(at 125.73 87.63 180)
-			(uuid "01007b2c-7975-49fa-b241-dcb053f9ede3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	)
+	(fp_text user "SCL"
+		(at 8.3 -1.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "536dd470-f8ed-48ed-9024-778e4d5880b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
+			(justify left bottom)
 		)
-		(pin "MTR1" input
-			(at 125.73 91.44 180)
-			(uuid "2b596432-e3db-44ee-a2dd-c10937d78695")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	)
+	(fp_text user "DRDY"
+		(at 18.4 -1.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8ebd8803-6b7f-49cd-9dac-69a90c039f15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
+			(justify left bottom)
 		)
-		(pin "MTR2" input
-			(at 125.73 93.98 180)
-			(uuid "110f8bbc-42e6-48f0-a94f-ed0a68c4f83a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	)
+	(fp_text user "INTA"
+		(at 15.7 -1.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b6d103d3-b20c-4d84-bffd-6ea78c23931b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
+			(justify left bottom)
 		)
-		(pin "MTR3" input
-			(at 125.73 96.52 180)
-			(uuid "f182b227-f516-4e0f-b631-e2da3d37ac72")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	)
+	(fp_text user "GND"
+		(at 5.6 -1.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "da3bbef2-995c-41e0-a730-0ceaf5bdb749")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
+			(justify left bottom)
 		)
-		(pin "MTR4" input
-			(at 125.73 99.06 180)
-			(uuid "8f7fdd60-a9a2-4653-a57a-141f33f8a7c1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	)
+	(fp_text user "3.3V"
+		(at 3.2 -1.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f3bb04cb-fe91-4100-8400-a7c3cac96eba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
+			(justify left bottom)
 		)
-		(pin "SCL" bidirectional
-			(at 125.73 101.6 180)
-			(uuid "afa2b5d8-090f-4ce0-9873-cc5490b51faf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	)
+	(fp_text user "FSYNC"
+		(at 13.4 -1.5 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe346223-c79f-4178-8b47-d72e12cdfa9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
+			(justify left bottom)
 		)
-		(pin "SDA" bidirectional
-			(at 125.73 104.14 180)
-			(uuid "a261e4da-a4f8-4623-9720-e2e08f7d17f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USBD+" bidirectional
-			(at 125.73 106.68 180)
-			(uuid "d7327eb2-404d-4c03-a030-468ecfbce89d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USBD-" bidirectional
-			(at 125.73 109.22 180)
-			(uuid "b8e50a7c-bcde-4264-a909-1ff4703ca404")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LED_BLUE" input
-			(at 157.48 87.63 0)
-			(uuid "25e38928-f057-4425-8efc-39bdbefd78a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "LED_RED" input
-			(at 157.48 91.44 0)
-			(uuid "1e5284cc-acd1-45f1-b69e-f35a9f2e83d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "2")
-				)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13.8 -10.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a4db459-dd9f-47a5-abf8-719eb8ce0748")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
-	(sheet
-		(at 125.73 118.11)
-		(size 31.75 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3b7e7fd7-5736-4711-b48c-34d501eaa685")
-		(property "Sheetname" "usb power"
-			(at 125.73 117.3984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usbpower.kicad_sch"
-			(at 125.73 128.8546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "LDO_EN" output
-			(at 157.48 121.92 0)
-			(uuid "b0e1130e-0660-486d-bfc5-4f540ca69e5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USBD+" bidirectional
-			(at 125.73 124.46 180)
-			(uuid "951653fa-f6d8-443f-9eeb-f2dfa5cdf33c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USBD-" bidirectional
-			(at 125.73 121.92 180)
-			(uuid "94398f68-e7cf-441f-b845-55a320bd6221")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "6")
-				)
-			)
-		)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df7cc69f-08ab-4e35-8b58-c81621dd7e39")
 	)
-	(sheet
-		(at 161.29 85.09)
-		(size 24.13 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3c21c8a1-5c0b-4ed6-95c7-1ac4e621f5e8")
-		(property "Sheetname" "status leds"
-			(at 161.29 84.3784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "statusleds.kicad_sch"
-			(at 161.29 95.8346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "LED_BLUE" output
-			(at 161.29 87.63 180)
-			(uuid "9b3d18b4-8690-4a63-855d-cfda3f1221c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LED_RED" output
-			(at 161.29 91.44 180)
-			(uuid "3a9de247-a1a6-4783-852a-b3d4c3214f95")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "3")
-				)
-			)
-		)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cff89689-13fa-4b01-8de1-340a38759fbd")
 	)
-	(sheet
-		(at 101.6 109.22)
-		(size 13.97 16.51)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "738662d6-6c41-4f3e-a588-8d054add7828")
-		(property "Sheetname" "sensor"
-			(at 101.6 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "sensor.kicad_sch"
-			(at 94.742 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SCL" bidirectional
-			(at 115.57 115.57 0)
-			(uuid "5d706584-2c89-4706-bf0b-cf026fe56e3a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 115.57 118.11 0)
-			(uuid "a03cfffa-5fc7-4e66-a720-328608eb502e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "5")
-				)
-			)
-		)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09117d26-f948-43fc-951c-7397c60cce48")
 	)
-	(sheet
-		(at 160.02 118.11)
-		(size 25.4 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a880b9e6-2cc9-406b-acd1-8115b7529151")
-		(property "Sheetname" "battery control"
-			(at 160.02 117.3984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "batterycontrol.kicad_sch"
-			(at 160.02 128.8546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "LDO_EN" input
-			(at 160.02 121.92 180)
-			(uuid "70a15133-0bc8-4487-be30-90427f30a607")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ADC_BATTERY" input
-			(at 185.42 121.92 0)
-			(uuid "2ed90fb4-d424-460e-a315-96e7c9406225")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "7")
-				)
-			)
-		)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81c0c73b-0b99-44a6-aa2f-74e4aa62efb7")
 	)
-	(sheet
-		(at 161.29 100.33)
-		(size 24.13 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b0efd852-9c3a-4f8a-822f-c03723051308")
-		(property "Sheetname" "battery"
-			(at 161.29 99.6184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "battery.kicad_sch"
-			(at 161.29 113.6146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "8")
-				)
-			)
-		)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a3bb5170-7ba9-42dd-86b9-3c82b603a362")
 	)
-	(sheet
-		(at 101.6 85.09)
-		(size 13.97 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "da63f7ab-ab66-4122-9e6c-272b8d61763a")
-		(property "Sheetname" "motor drivers"
-			(at 101.6 84.3784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "motordrivers.kicad_sch"
-			(at 88.9 103.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "MTR1" output
-			(at 115.57 91.44 0)
-			(uuid "9f707ba3-84a9-4f0c-bc7f-4259868d8903")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MTR2" output
-			(at 115.57 93.98 0)
-			(uuid "4e4e2c1a-08de-4b34-aa25-d64d9ec89ec9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MTR3" output
-			(at 115.57 96.52 0)
-			(uuid "d98ed174-04e2-4e6b-9390-9475cebc8371")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MTR4" output
-			(at 115.57 99.06 0)
-			(uuid "1f9ddfef-0c26-4a32-bd19-624bc348fc3e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Minicopter"
-				(path "/64f47f0f-737f-4ea8-9b68-9c8ed6450afb"
-					(page "4")
-				)
-			)
-		)
+	(pad "6" thru_hole circle
+		(at 12.7 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "040a833a-24b9-4814-843d-8037168fcc40")
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
+	(pad "7" thru_hole circle
+		(at 15.24 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "69d8429a-e1eb-49ab-8ed9-e9382154975a")
+	)
+	(pad "8" thru_hole circle
+		(at 17.78 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b31075a8-2b4b-43fe-84de-cb337080d4e0")
 	)
 	(embedded_fonts no)
 	(embedded_files

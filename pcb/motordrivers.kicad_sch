@@ -1928,7 +1928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 227.33 57.15 0)
 			(effects
 				(font
@@ -1998,7 +1998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2302DS-T1:SOT95P237X112-3N"
+		(property "Footprint" "IRLML6344TRPBF:IRLML6344TRPBF"
 			(at 212.09 76.2 0)
 			(effects
 				(font
@@ -2212,7 +2212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2302DS-T1:SOT95P237X112-3N"
+		(property "Footprint" "IRLML6344TRPBF:IRLML6344TRPBF"
 			(at 46.99 77.47 0)
 			(effects
 				(font
@@ -2339,7 +2339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 209.042 81.28 90)
 			(effects
 				(font
@@ -2541,7 +2541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 170.18 57.15 0)
 			(effects
 				(font
@@ -2677,7 +2677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 62.23 58.42 0)
 			(effects
 				(font
@@ -2879,7 +2879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2302DS-T1:SOT95P237X112-3N"
+		(property "Footprint" "IRLML6344TRPBF:IRLML6344TRPBF"
 			(at 101.6 76.2 0)
 			(effects
 				(font
@@ -3356,7 +3356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 106.3752 64.77 0)
 			(effects
 				(font
@@ -3425,7 +3425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.7652 66.04 0)
 			(effects
 				(font
@@ -3714,7 +3714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 43.942 82.55 90)
 			(effects
 				(font
@@ -3784,7 +3784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
 			(at 116.84 57.15 0)
 			(effects
 				(font
@@ -3853,7 +3853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.7152 64.77 0)
 			(effects
 				(font
@@ -3923,7 +3923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.892 81.28 90)
 			(effects
 				(font
@@ -4079,7 +4079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 216.8652 64.77 0)
 			(effects
 				(font
@@ -4149,7 +4149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2302DS-T1:SOT95P237X112-3N"
+		(property "Footprint" "IRLML6344TRPBF:IRLML6344TRPBF"
 			(at 154.94 76.2 0)
 			(effects
 				(font
@@ -4276,7 +4276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 98.552 81.28 90)
 			(effects
 				(font
