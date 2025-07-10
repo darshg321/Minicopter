@@ -37,6 +37,8 @@ components left: motor driver, battery charge terminal, controller components (o
 
 making a choice not to use usb uart bc im using esp32 c3 and will just use the native usb support
 
+# schematics:
+
 ## july 8th
 
 first schematic: the powering (2.5 hours)
@@ -178,3 +180,8 @@ irlml6344TRPBF footprint
 requirement: leave >= .2mm clearance between silkscreen and pads
 
 zero errors/warnings in erc and updating pcb from schematic !!
+
+# bom making:
+![bom](assets/image13.png)
+
+# pcb
