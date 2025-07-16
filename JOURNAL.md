@@ -185,3 +185,20 @@ zero errors/warnings in erc and updating pcb from schematic !!
 ![bom](assets/image13.png)
 
 # pcb
+
+rough positioning: ![pcb1](assets/image14.png)
+
+doing a 2 layer pwr + signal / gnd pcb
+this is because 4 layer is complicated and probably unnecessary
+
+progress:
+![pcb2](assets/image15.png)
+
+note: vbus is the unprotected power rail directly from usb, while 5v is the protected one
+this doesnt make sense with my current schematic cause then the vbus isnt really doing anything, its just connected to the diode
+the 5v from the usb is the one powering everything anyways
+![schem](assets/image16.png)
+so swapping the 5v and vbus flags in the schematic above to correctly reflect the unprotected 5v from the usb going to the diode, becoming protected
+
+![pcb 3](assets/image17.png)
+done with everything except ground layer
