@@ -1,7 +1,7 @@
-# Compact and precise ESP-32 based drone capable of autonomous pathing, built from scratch
+# ESP-32 based drone capable of autonomous pathing
 
 WIP - Progress:
 - [x] PCB Schematic
-- [ ] PCB Routing
+- [x] PCB Routing
 - [ ] CAD
 - [ ] Firmware

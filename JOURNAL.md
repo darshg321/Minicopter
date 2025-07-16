@@ -202,3 +202,7 @@ so swapping the 5v and vbus flags in the schematic above to correctly reflect th
 
 ![pcb 3](assets/image17.png)
 done with everything except ground layer
+
+![pcb 4](assets/image18.png)
+with gnd layer
+
