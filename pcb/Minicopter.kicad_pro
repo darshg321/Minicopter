@@ -506,7 +506,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Minicopter.step",
       "svg": "",
       "vrml": ""
     },

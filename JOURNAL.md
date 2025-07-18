@@ -1,3 +1,5 @@
+## time: 29 hours
+
 ## july 6 & 7
 
 got inpsiration for this project from this reel: https://www.instagram.com/p/DKDFd3nS-c8/
@@ -41,8 +43,6 @@ making a choice not to use usb uart bc im using esp32 c3 and will just use the n
 
 ## july 8th
 
-first schematic: the powering (2.5 hours)
-
 components:
 usb_c_receptable_usb2.0_16p
 AO3401A
@@ -62,8 +62,6 @@ circuit explanation for later me:
 - BP is for noise reduction, adding a capacitor does this
 - two more capaicitors to add stabalization on the 3v3 rail, connected in parallel and will supply voltage in drops
 - green led for on status
-
-second schematic: battery (0.5 hour)
 
 components:
 TP4056
@@ -87,6 +85,8 @@ components:
 MST22D18G2_125 (https://www.amazon.ca/100Pcs-MSS22D18-Miniature-Switch-Handle/dp/B093LBLK6D)
 
 ![batterycontrol](assets/image3.png)
+
++6 hours
 
 ## july 9th
 
@@ -135,6 +135,10 @@ circuit explanation:
 - fsync connects to gnd because its an output pin unlike the other input pins, and so may pick up on random noise and so has to be connected to gnd
 - breakout board likely already has decoupling capacitors for the power, but might as well add them anyways for ensured reliability
 
++6 hours
+
+## july 10th
+
 sixth schematic: motor drivers
 
 components:
@@ -181,8 +185,12 @@ requirement: leave >= .2mm clearance between silkscreen and pads
 
 zero errors/warnings in erc and updating pcb from schematic !!
 
++4 hours
+
 # bom making:
 ![bom](assets/image13.png)
+
++1 hour
 
 # pcb
 
@@ -200,9 +208,41 @@ the 5v from the usb is the one powering everything anyways
 ![schem](assets/image16.png)
 so swapping the 5v and vbus flags in the schematic above to correctly reflect the unprotected 5v from the usb going to the diode, becoming protected
 
++3 hours
+
+## july 15th - 17th
+
 ![pcb 3](assets/image17.png)
 done with everything except ground layer
 
 ![pcb 4](assets/image18.png)
 with gnd layer
 
+box:
+![box](assets/image19.png)
+
++2 hours
+
+## july 18th
+
+slight pivot, i was going to cad a 3d printed case for this but realized that the motors are actually not that powerful, and a 3d printed case might be too heavy
+theres also no reason to have a case if i can just use the pcb, its seemingly stable enough
+the only issue would be vibrations potentially affecting the hardware, but since this doesnt seem to be a huge problem in the litewing, it should be fine for my project
+![new pcb](assets/image20.png)
+
++1 hour
+
+# firmware
+
+using micropython as circuit python is apparently bad for pwm, i dont want to use arduino c, and no one uses espressif's thing probably
+
+mpu6050 driver: https://github.com/nickcoutsos/MPU-6050-Python
+(also requires smbus package, replaced that with smbus3)
+
+really basic firmware code, cant really do more without the microcontroller
+
+![firmware1](assets/image21.png)
+
++2 hours
+
+generating production files
