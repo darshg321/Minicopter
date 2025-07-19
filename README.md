@@ -1,9 +1,10 @@
 # Minicopter
 
-A lightweight ESP-32 based drone capable of autonomous pathing, build for agility
+A lightweight ESP-32 based drone capable of autonomous pathing, built for agility. Uses the GY-87 breakout board with a three-axis gyroscope + triaxial accelerometer + three-axis magnetic field + pressure. Charges a LiPo battery with USB-C and can be flashed with firmware.
+Can be controlled with both pathing commands and bluetooth controls.
 
-I made this project after getting inspiration from a different esp32 drone reel, and thought, I could make that too
-I've additionally always wanted to get into creating a from-scratch hardware project that includes microcontrollers and pcbs, and thougth this was the perfect place to start
+I made this project after getting inspiration from a different esp32 drone reel, and thought I could make that too
+I've additionally always wanted to get into creating a from-scratch hardware project that includes microcontrollers and pcbs, and thought this was the perfect place to start
 
 ![alt text](assets/3dpcb.png)
 
@@ -40,5 +41,6 @@ I've additionally always wanted to get into creating a from-scratch hardware pro
 | GY-87_Module                        | 1   | 3.00        |
 | USBLC6-2P6                          | 1   | 0.46        |
 | Fytoo 3.7V 500mAh 25C Li Battery    | 1   | 28.99       |
-| NewBeeDrone BDR 6mm Brushed Motor  | 1   | 15.00       |
-| Crazyflie Nano Replacement Props   | 1   | 8.57        |
+| NewBeeDrone BDR 6mm Brushed Motor   | 1   | 15.00       |
+| Crazyflie Nano Replacement Props    | 1   | 8.57        |
+| Total (w/ shipping + tax)           |     | 136.60      |
