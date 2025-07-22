@@ -1,6 +1,6 @@
 Reference,Value,Footprint,Qty,,Price (w/o shipping + taxes USD),,
 "C1, C4, C5",10uF,Capacitor_SMD:C_0603_1608Metric,3,https://www.aliexpress.com/item/1005005626707702.html,1.39,,
-C2,470pF,Capacitor_SMD:C_0603_1608Metric,1,https://www.digikey.ca/en/products/detail/kemet/C0603C471J5GACTU/2200803,0.4,,
+C2,470pF,Capacitor_SMD:C_0603_1608Metric,1,https://www.digikey.ca/en/products/detail/kemet/C0603C471J5GACTU/2200803,0.5,,
 C3,2.2uF,Capacitor_SMD:C_0603_1608Metric,1,,,,
 "C6, C12",100nF,Capacitor_SMD:C_0603_1608Metric,2,,,,
 C7,10nF,Capacitor_SMD:C_0603_1608Metric,1,,,,
@@ -24,10 +24,10 @@ U1,SPX3819M5-L-3-3,Package_TO_SOT_SMD:SOT-23-5,1,https://www.digikey.ca/en/produ
 U2,TP4056-42-ESOP8,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias,1,https://www.aliexpress.com/item/1005009057944694.html,1.73,,
 U3,ESP32-C3-WROOM-02,RF_Module:ESP32-C3-WROOM-02,1,https://www.digikey.ca/en/products/detail/espressif-systems/ESP32-C3-WROOM-02-N4/145530311,3.28,,
 U4,GY-87_Module,GY-87_Module:GY-87_Module,1,https://www.aliexpress.com/i/32668253323.html,3,,Total (USD)
-U5,USBLC6-2P6,Package_TO_SOT_SMD:SOT-666,1,https://www.digikey.ca/en/products/detail/stmicroelectronics/USBLC6-2SC6Y/2819177,0.46,Subtotal,76.72
+U5,USBLC6-2P6,Package_TO_SOT_SMD:SOT-666,1,https://www.digikey.ca/en/products/detail/stmicroelectronics/USBLC6-2SC6Y/2819177,0.46,Subtotal,60.51
 ,,,,,,Digikey,20
-,Fytoo 5pcs 3.7V 500mAh 25C Li Battery ,,1,https://www.amazon.ca/dp/B0794ZPVSX,28.99,Aliexpress,25.77
-,NewBeeDrone BDR GOLD Edition - 6mm Brushed Motor ,,1,https://newbeedrone.com/products/newbeedrone-bdr-gold-edition-6mm-brushed-motor,15,Amazon,4.11
-,Bitcraze Crazyflie Nano Quadcopter Replacement Propellers ,,1,https://ca.robotshop.com/products/crazyflie-nano-quadcopter-replacement-propellers,8.57,Taxes,10
+,3.7V 500mAh 902530 25C LiPo Battery,,3,https://www.aliexpress.com/item/1005007016796736.html,12.68,Aliexpress,25.77
+,NewBeeDrone BDR GOLD Edition - 6mm Brushed Motor ,,1,https://newbeedrone.com/products/newbeedrone-bdr-gold-edition-6mm-brushed-motor,15,Taxes,10
+,Bitcraze Crazyflie Nano Quadcopter Replacement Propellers ,,1,https://ca.robotshop.com/products/crazyflie-nano-quadcopter-replacement-propellers,8.57,,
 ,,,,,,,
-,,,,,76.72,,136.6
+,,,,,60.51,,116.28

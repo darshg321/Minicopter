@@ -39,6 +39,6 @@ I've additionally always wanted to get into creating a from-scratch hardware pro
 | ESP32-C3-WROOM-02                   | 1   | 3.28        |
 | GY-87_Module                        | 1   | 3.00        |
 | USBLC6-2P6                          | 1   | 0.46        |
-| Fytoo 3.7V 500mAh 25C Li Battery    | 1   | 28.99       |
-| NewBeeDrone BDR 6mm Brushed Motor  | 1   | 15.00       |
-| Crazyflie Nano Replacement Props   | 1   | 8.57        |
+| 3.7V 500mAh 902530 25C LiPo Battery | 3   | 12.68       |
+| NewBeeDrone BDR 6mm Brushed Motor   | 1   | 15.00       |
+| Crazyflie Nano Replacement Props    | 1   | 8.57        |
