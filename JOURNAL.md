@@ -1,4 +1,4 @@
-## time: 29 hours
+## time: 35 hours
 
 ## july 6 & 7
 
@@ -246,3 +246,31 @@ really basic firmware code, cant really do more without the microcontroller
 +2 hours
 
 generating production files
+
+## july 22
+
+minor issues to fix, also need to add a cad
+fixed thermal relief issue by making GND on usb receptacle have solid thermal relief, which shouldnt be an issue because i wont be hand soldering this
+deleted holes on edge outline which is unnecessary
+used heal shape with edge cuts because apparently outline wasnt closed off  (whyd it let me export as a gerber then bruh)
+
+![22](assets/image22.png)
+
+# CAD
+
+gy87 breakout board cad
+![gy87 cad](assets/image23.png)
+
+motor cad
+![motor cad](assets/image24.png)
+
+propellers cad
+![propellers cad](assets/image25.png)
+
+motor attachment cad
+![alt text](assets/image26.png)
+
+full assembly cad
+![alt text](assets/image27.png)
+
++6 hours
