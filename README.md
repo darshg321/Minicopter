@@ -14,25 +14,25 @@ I've additionally always wanted to get into creating a from-scratch hardware pro
 
 | Value                               | Qty | Price (USD, approx) |
 |-------------------------------------|-----|-------------|
-| 10uF                                | 3   | 1.39        |
-| 470pF                               | 1   | 0.40        |
-| 2.2uF                               | 1   |             |
-| 100nF                               | 2   |             |
-| 10nF                                | 1   |             |
-| 1uF                                 | 4   |             |
+| 10uF                                | 3   | 0.46        |
+| 470pF                               | 1   | 0.4        |
+| 2.2uF                               | 1   |    0.19         |
+| 100nF                               | 2   |        0.14     |
+| 10nF                                | 1   |         0.09    |
+| 1uF                                 | 4   |          0.05   |
 | SS34                                | 1   | 0.66        |
 | LED                                 | 5   | 1.39        |
-| 1N4148W                             | 4   | 1.39        |
+| 1N4148W                             | 4   | 0.77        |
 | USB_C_Receptacle_USB2.0_16P         | 1   | 0.88        |
 | Conn_01x02                          | 1   | 1.39        |
 | Conn_01x02_Socket                   | 4   | 0.70        |
 | AO3401A                             | 1   | 0.46        |
-| 5.1K                                | 2   | 4.10        |
-| 100K                                | 4   |             |
-| 470                                 | 1   |             |
-| 1.2K                                | 1   |             |
-| 1K                                  | 4   |             |
-| 10K                                 | 6   |             |
+| 5.1K                                | 2   | 0.45        |
+| 100K                                | 4   |     0.2        |
+| 470                                 | 1   |       0.28      |
+| 1.2K                                | 1   |          0.61   |
+| 1K                                  | 4   |          0.2   |
+| 10K                                 | 6   |            0.19 |
 | SS-12D00                            | 1   | 1.39        |
 | IRLML6344TRPBF                      | 4   | 1.08        |
 | SPX3819M5-L-3-3                     | 1   | 0.46        |
@@ -43,4 +43,4 @@ I've additionally always wanted to get into creating a from-scratch hardware pro
 | 3.7V 500mAh 902530 25C LiPo Battery | 3   | 12.68       |
 | NewBeeDrone BDR Unicorn Edition Motors - 6mm Brushed Motors    | 1   | 19.99       |
 | NewBeeDrone Venom V2 Super Durable Propellers     | 1   | 2.99        |
-| Total (w/ shipping + tax)           |     | 139.86      |
+| Total (w/ shipping + tax)           |     | 138.15      |
