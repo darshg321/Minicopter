@@ -24,10 +24,10 @@ U1,SPX3819M5-L-3-3,Package_TO_SOT_SMD:SOT-23-5,1,https://www.digikey.ca/en/produ
 U2,TP4056-42-ESOP8,Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias,1,https://www.aliexpress.com/item/1005009057944694.html,1.73,,
 U3,ESP32-C3-WROOM-02,RF_Module:ESP32-C3-WROOM-02,1,https://www.digikey.ca/en/products/detail/espressif-systems/ESP32-C3-WROOM-02-N4/145530311,3.28,,
 U4,GY-87_Module,GY-87_Module:GY-87_Module,1,https://www.aliexpress.com/i/32668253323.html,3,,Total (USD)
-U5,USBLC6-2P6,Package_TO_SOT_SMD:SOT-666,1,https://www.digikey.ca/en/products/detail/stmicroelectronics/USBLC6-2SC6Y/2819177,0.46,Subtotal,59.92
+U5,USBLC6-2P6,Package_TO_SOT_SMD:SOT-666,1,https://www.digikey.ca/en/products/detail/stmicroelectronics/USBLC6-2SC6Y/2819177,0.46,Subtotal,69.94
 ,,,,,,NewBeeDrone,24.17
 ,3.7V 500mAh 902530 25C LiPo Battery,,3,https://www.aliexpress.com/item/1005007016796736.html,12.68,Digikey,20
-,NewBeeDrone BDR Unicorn Edition Motors - 6mm Brushed Motors ,,1,https://newbeedrone.com/collections/drone-motors/products/newbeedrone-bdr-unicorn-edition-motors-6mm-brushed-motors,19.99,Aliexpress,25.77
-,NewBeeDrone Venom V2 Super Durable Propellers 31mm -0.8mm Shaft ,,1,https://newbeedrone.com/collections/drone-propellers/products/newbeedrone-venom-v2-super-durable-propellers-31mm-0-8mm-shaft4ccw-4cw,2.99,Taxes,10
+,NewBeeDrone BDR Unicorn Edition Motors - 6mm Brushed Motors ,,1,https://newbeedrone.com/collections/drone-motors/products/newbeedrone-bdr-unicorn-edition-motors-6mm-brushed-motors,28,Aliexpress,25.77
+,NewBeeDrone Venom V2 Super Durable Propellers 31mm -0.8mm Shaft ,,1,https://newbeedrone.com/collections/drone-propellers/products/newbeedrone-venom-v2-super-durable-propellers-31mm-0-8mm-shaft4ccw-4cw,5,Taxes,10
 ,,,,,,,
-,,,,,59.92,,139.86
+,,,,,69.94,,149.88
