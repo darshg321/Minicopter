@@ -41,6 +41,6 @@ I've additionally always wanted to get into creating a from-scratch hardware pro
 | GY-87_Module                        | 1   | 3.00        |
 | USBLC6-2P6                          | 1   | 0.46        |
 | 3.7V 500mAh 902530 25C LiPo Battery | 3   | 12.68       |
-| NewBeeDrone BDR Unicorn Edition Motors - 6mm Brushed Motors    | 1   | 28.00       |
-| NewBeeDrone Venom V2 Super Durable Propellers     | 1   | 5.00        |
-| Total (w/ shipping + tax)           |     | 149.88      |
+| NewBeeDrone BDR Unicorn Edition Motors - 6mm Brushed Motors    | 1   | 19.99       |
+| NewBeeDrone Venom V2 Super Durable Propellers     | 1   | 2.99        |
+| Total (w/ shipping + tax)           |     | 139.86      |
