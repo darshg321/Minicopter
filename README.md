@@ -10,6 +10,8 @@ I've additionally always wanted to get into creating a from-scratch hardware pro
 
 ![pcb](assets/pcb.png)
 
+## Read the [JOURNAL.md](JOURNAL.md)
+
 # BOM
 
 | Value                               | Qty | Price (USD, approx) |

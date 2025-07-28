@@ -274,3 +274,11 @@ full assembly cad
 ![alt text](assets/image27.png)
 
 +6 hours
+
+## july 24-28
+
+made changes to BOM to use more digikey, and SMD components (oops)
+firmware: added pathing which while can't be very accurate without the physical build, should hopefully be a reasonable base
+used https://github.com/hashky/bmp180-circuitpy for bmp driver, big shoutout to that guy, porting it from adafruit took a lot of math
+
++4 hours
