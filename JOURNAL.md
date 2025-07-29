@@ -282,3 +282,9 @@ firmware: added pathing which while can't be very accurate without the physical 
 used https://github.com/hashky/bmp180-circuitpy for bmp driver, big shoutout to that guy, porting it from adafruit took a lot of math
 
 +4 hours
+
+## july 29
+
+![alt text](assets/image28.png)
+
+fixed the receptacle not being at the edge
