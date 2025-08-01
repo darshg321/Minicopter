@@ -6,7 +6,7 @@ Can be controlled with both pathing commands and bluetooth controls.
 I made this project after getting inspiration from a different esp32 drone reel, and thought I could make that too
 I've additionally always wanted to get into creating a from-scratch hardware project that includes microcontrollers and pcbs, and thought this was the perfect place to start
 
-![cad](assets/cad.png)
+![cad](assets/Minicopter_Render.png)
 
 ![pcb](assets/pcb.png)
 
