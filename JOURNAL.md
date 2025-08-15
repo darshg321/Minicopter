@@ -288,3 +288,67 @@ used https://github.com/hashky/bmp180-circuitpy for bmp driver, big shoutout to 
 ![alt text](assets/image28.png)
 
 fixed the receptacle not being at the edge
+
+## aug 5th
+
+![alt text](assets/image29.jpg)
+pcb got here, starting assembling
+
+![alt text](assets/image30.jpg)
+some progress, soldered resistors and some other stuff
+
++3 hours
+
+## aug 6th
+
+![alt text](assets/image31.jpg)
+done soldering components (besides motors)
+need to now troubleshoot
+
++3 hours
+
+## aug 7th
+
+![alt text](assets/image32.jpg)
+trying to figure out how to power with battery as jst housing is not what i expected
+
+![alt text](assets/image33.jpg)
+soldered wire to power with battery, but this isnt consistent
+
+fixed some connections as they werent really working
++3 hours
+
+## aug 12th
+
+fixed powering with battery by soldering headers on to the pads, which i can connect the battery to for correct power
+
+currently troubleshooting with only battery:
+without usb the 5v rail is actually 3.86v which makes sense
+the ldo is supply 0.6v which is likely because i used a 100k resistor on my ldo switch (which actually works), so the ldo en is 0.3v and therefore its probably disabled
+
+changing r10 to a 10k resistor and trying again
+didnt work, by adding a resistor connecting vin to en the en is now high, but output is still not 3.3v, its 2.6v
++4 hours
+
+## aug 13th
+
+troubleshooting by testing everything with multimeter, and found that the issue is definitely the ldo, and the usb power also doesnt actually work either
+
+after a while of trying to figure out how to power it, found i have a breadboard power supply, so im powering it with a alkine battery and the power supply, and soldered to the 3v3 rail at the mcu and gnd
+
+![alt text](assets/image34.JPG)
+
+this fixed it, with multimeter testing it has proper 3v3 power
+
++4 hours
+
+## aug 14th
+
+esp should now be powered properly, so i need to flash firmware, which isnt working
+multimeter tested everything, and with analyzing the board i found the usb cc pull downs werent soldered properly, so i resoldered them, and the usb does now power 5v properly to the 5v rail, but since i removed my ldo i still need to use the breadboard power supply for now
+
+i still cant flash firmware, since i didnt put boot buttons i have to manually pull low for flashing, but it still doesnt connect to my computer
+after looking at the circuit more, i found that the usblc i used was probably not soldered properly
+unfortunately the pads are very very small, which i didnt realize when designing so i need to figure out how to connect the data pads together since its too small for wires, and the usblc ic seems to be too big for the pads even though i used the correct footprint
+
++4 hours
